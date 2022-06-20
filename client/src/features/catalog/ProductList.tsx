@@ -1,5 +1,6 @@
 import { List, ListItem, ListItemAvatar, Avatar, ListItemText, Grid } from "@mui/material";
 import { Product } from "../../app/models/products";
+
 import ProductCard from "./ProductCard";
 
 interface Props {
