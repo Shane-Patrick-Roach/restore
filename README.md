@@ -19,4 +19,4 @@
 
 ## Concepts
 
-[Importanct Concepts](./notes/concepts.md)
+[Important Concepts](./notes/concepts.md)
