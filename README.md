@@ -17,3 +17,6 @@
 - React-Router
 
 
+## Concepts
+
+[Importanct Concepts](./notes/concepts.md)
