@@ -1,13 +1,16 @@
+import { createBrowserHistory } from "history";
 import React from "react";
-import ReactDOM from "react-dom"
-import { BrowserRouter } from "react-router-dom";
-import App from "./app/layout/App"
+import ReactDOM from "react-dom";
+import { Router } from "react-router-dom";
+import App from "./app/layout/App";
 
+
+export const history = createBrowserHistory();
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <Router history={history}>
       <App />
-    </BrowserRouter>
+    </Router>
   </React.StrictMode>, document.getElementById('root')
 );
