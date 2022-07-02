@@ -6,7 +6,6 @@ axios.defaults.baseURL = 'http://localhost:5000/api/';
 
 const sleep = () => new Promise(resolve => setTimeout(resolve, 1000));
 
-
 const responseBody = (response: AxiosResponse) => response.data;
 
 axios.interceptors.response.use( async response => {
