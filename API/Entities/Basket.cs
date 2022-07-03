@@ -14,7 +14,7 @@ namespace API.Entities
 
     public List<BasketItem> Items { get; set; } = new List<BasketItem>();
 
-    public void addItem(Product product, int quantity)
+    public void AddItem(Product product, int quantity)
     {
       if (Items.All(item => item.ProductId != product.Id))
       {
